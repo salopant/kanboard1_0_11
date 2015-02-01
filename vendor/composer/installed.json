@@ -1,0 +1,565 @@
+[
+    {
+        "name": "erusev/parsedown",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/erusev/parsedown.git",
+            "reference": "da5d75e97e1ed19e57bd54fa6cb595a6a0879a67"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/erusev/parsedown/zipball/da5d75e97e1ed19e57bd54fa6cb595a6a0879a67",
+            "reference": "da5d75e97e1ed19e57bd54fa6cb595a6a0879a67",
+            "shasum": ""
+        },
+        "time": "2014-10-29 20:29:46",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Parsedown": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Emanuil Rusev",
+                "email": "hello@erusev.com",
+                "homepage": "http://erusev.com"
+            }
+        ],
+        "description": "Parser for Markdown.",
+        "homepage": "http://parsedown.org",
+        "keywords": [
+            "markdown",
+            "parser"
+        ]
+    },
+    {
+        "name": "fguillot/json-rpc",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fguillot/JsonRPC.git",
+            "reference": "86e8339205616ad9b09d581957cc084a99c0ed27"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fguillot/JsonRPC/zipball/86e8339205616ad9b09d581957cc084a99c0ed27",
+            "reference": "86e8339205616ad9b09d581957cc084a99c0ed27",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-11-22 20:32:14",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "JsonRPC": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Unlicense"
+        ],
+        "authors": [
+            {
+                "name": "Frédéric Guillot",
+                "homepage": "http://fredericguillot.com"
+            }
+        ],
+        "description": "A simple Json-RPC client/server library that just works",
+        "homepage": "https://github.com/fguillot/JsonRPC"
+    },
+    {
+        "name": "fguillot/picodb",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fguillot/picoDb.git",
+            "reference": "268b3389d2bc3c92ef749a63440d17bd75e2a628"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fguillot/picoDb/zipball/268b3389d2bc3c92ef749a63440d17bd75e2a628",
+            "reference": "268b3389d2bc3c92ef749a63440d17bd75e2a628",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-01-03 00:32:58",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PicoDb": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "WTFPL"
+        ],
+        "authors": [
+            {
+                "name": "Frédéric Guillot",
+                "homepage": "http://fredericguillot.com"
+            }
+        ],
+        "description": "Minimalist database query builder",
+        "homepage": "https://github.com/fguillot/picoDb"
+    },
+    {
+        "name": "fguillot/simple-validator",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fguillot/simpleValidator.git",
+            "reference": "3bfa1ef0062906c83824ce8db1219914996d9bd4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fguillot/simpleValidator/zipball/3bfa1ef0062906c83824ce8db1219914996d9bd4",
+            "reference": "3bfa1ef0062906c83824ce8db1219914996d9bd4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-11-25 22:58:14",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "SimpleValidator": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Frédéric Guillot",
+                "homepage": "http://fredericguillot.com"
+            }
+        ],
+        "description": "The most easy to use validator library for PHP :)",
+        "homepage": "https://github.com/fguillot/simpleValidator"
+    },
+    {
+        "name": "psr/log",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+            "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+            "shasum": ""
+        },
+        "time": "2012-12-21 11:40:51",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Psr\\Log\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "fguillot/simpleLogger",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fguillot/simpleLogger.git",
+            "reference": "81df5643931d97e0101b4757d9454dbcb13a3fa9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fguillot/simpleLogger/zipball/81df5643931d97e0101b4757d9454dbcb13a3fa9",
+            "reference": "81df5643931d97e0101b4757d9454dbcb13a3fa9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "psr/log": "~1.0"
+        },
+        "time": "2015-01-02 03:40:21",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "SimpleLogger": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Frédéric Guillot"
+            }
+        ],
+        "description": "PHP library to write logs (compatible with PSR-3)",
+        "homepage": "https://github.com/fguillot/simpleLogger"
+    },
+    {
+        "name": "ircmaxell/password-compat",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ircmaxell/password_compat.git",
+            "reference": "1fc1521b5e9794ea77e4eca30717be9635f1d4f4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ircmaxell/password_compat/zipball/1fc1521b5e9794ea77e4eca30717be9635f1d4f4",
+            "reference": "1fc1521b5e9794ea77e4eca30717be9635f1d4f4",
+            "shasum": ""
+        },
+        "time": "2013-04-30 19:58:08",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/password.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Anthony Ferrara",
+                "email": "ircmaxell@ircmaxell.com",
+                "homepage": "http://blog.ircmaxell.com"
+            }
+        ],
+        "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
+        "homepage": "https://github.com/ircmaxell/password_compat",
+        "keywords": [
+            "hashing",
+            "password"
+        ]
+    },
+    {
+        "name": "lusitanian/oauth",
+        "version": "v0.3.5",
+        "version_normalized": "0.3.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Lusitanian/PHPoAuthLib.git",
+            "reference": "ac5a1cd5a4519143728dce2213936eea302edf8a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Lusitanian/PHPoAuthLib/zipball/ac5a1cd5a4519143728dce2213936eea302edf8a",
+            "reference": "ac5a1cd5a4519143728dce2213936eea302edf8a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*",
+            "predis/predis": "0.8.*@dev",
+            "symfony/http-foundation": "~2.1"
+        },
+        "suggest": {
+            "ext-openssl": "Allows for usage of secure connections with the stream-based HTTP client.",
+            "predis/predis": "Allows using the Redis storage backend.",
+            "symfony/http-foundation": "Allows using the Symfony Session storage backend."
+        },
+        "time": "2014-09-05 15:19:58",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "OAuth": "src",
+                "OAuth\\Unit": "tests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "David Desberg",
+                "email": "david@daviddesberg.com"
+            },
+            {
+                "name": "Pieter Hordijk",
+                "email": "info@pieterhordijk.com"
+            }
+        ],
+        "description": "PHP 5.3+ oAuth 1/2 Library",
+        "keywords": [
+            "Authentication",
+            "authorization",
+            "oauth",
+            "security"
+        ]
+    },
+    {
+        "name": "pimple/pimple",
+        "version": "v3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/silexphp/Pimple.git",
+            "reference": "876bf0899d01feacd2a2e83f04641e51350099ef"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/silexphp/Pimple/zipball/876bf0899d01feacd2a2e83f04641e51350099ef",
+            "reference": "876bf0899d01feacd2a2e83f04641e51350099ef",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-07-24 09:48:15",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Pimple": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Pimple is a simple Dependency Injection Container for PHP 5.3",
+        "homepage": "http://pimple.sensiolabs.org",
+        "keywords": [
+            "container",
+            "dependency injection"
+        ]
+    },
+    {
+        "name": "swiftmailer/swiftmailer",
+        "version": "v5.3.1",
+        "version_normalized": "5.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/swiftmailer/swiftmailer.git",
+            "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
+            "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "mockery/mockery": "~0.9.1"
+        },
+        "time": "2014-12-05 14:17:14",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/swift_required.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris Corbyn"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Swiftmailer, free feature-rich PHP mailer",
+        "homepage": "http://swiftmailer.org",
+        "keywords": [
+            "mail",
+            "mailer"
+        ]
+    },
+    {
+        "name": "symfony/console",
+        "version": "v2.6.1",
+        "version_normalized": "2.6.1.0",
+        "target-dir": "Symfony/Component/Console",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Console.git",
+            "reference": "ef825fd9f809d275926547c9e57cbf14968793e8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/Console/zipball/ef825fd9f809d275926547c9e57cbf14968793e8",
+            "reference": "ef825fd9f809d275926547c9e57cbf14968793e8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/event-dispatcher": "~2.1",
+            "symfony/process": "~2.1"
+        },
+        "suggest": {
+            "psr/log": "For using the console logger",
+            "symfony/event-dispatcher": "",
+            "symfony/process": ""
+        },
+        "time": "2014-12-02 20:19:20",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.6-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Console\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "v2.6.1",
+        "version_normalized": "2.6.1.0",
+        "target-dir": "Symfony/Component/EventDispatcher",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/EventDispatcher.git",
+            "reference": "720fe9bca893df7ad1b4546649473b5afddf0216"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/720fe9bca893df7ad1b4546649473b5afddf0216",
+            "reference": "720fe9bca893df7ad1b4546649473b5afddf0216",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.0",
+            "symfony/dependency-injection": "~2.6",
+            "symfony/expression-language": "~2.6",
+            "symfony/stopwatch": "~2.2"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2014-12-02 20:19:20",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.6-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "http://symfony.com"
+    }
+]
